@@ -237,8 +237,8 @@
 // console.log('this is test');
 
 
-// import {User} from './User';
+import {User} from './User';
 
-// const u1 = new User(1, 'pryam', 'pb@gmai.com');
-// console.log(u1.name);
-// console.log(u1.getName());
+const u1 = new User(1, 'pryam', 'pb@gmai.com');
+console.log(u1.name);
+console.log(u1.getName());
